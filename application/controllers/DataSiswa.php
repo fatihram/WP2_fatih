@@ -13,7 +13,7 @@ class DataSiswa extends CI_Controller
             'Nama',
             'required|min_length[3]',
             [
-                'required' => 'Nama Harus diisi',
+                'required' => 'Nama musti diisi',
                 'min_length' => 'Nama terlalu pendek'
             ]
         );
